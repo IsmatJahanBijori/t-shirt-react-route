@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-style{
+    @apply text-xl font-semibold text-right bg-slate-500 p-5 bg-gradient-to-r from-purple-300
+ via-purple-400 to-pink-300;
+}
